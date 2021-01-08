@@ -18,6 +18,6 @@ const campsiteSchema = new Schema(
   }
 );
 
-const Campsites = mongoose.model("Campsite", campsiteSchema);
+const Campsite = mongoose.model("Campsite", campsiteSchema);
 
 module.exports = Campsite;
